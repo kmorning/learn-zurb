@@ -18,3 +18,8 @@
 $(function() {
   $(document).foundation();
 });
+
+// Fix for Foundation orbit and turbolinks
+$(document).on('page:load', function() {
+  Foundation.libs.orbit.init();
+})
