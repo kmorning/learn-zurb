@@ -63,4 +63,11 @@ section {
   @extend .no-pad;
 }
 */
+.top-nav {
+  @extend .right;
+  @extend .button-group;
+}
 
+.top-nav a {
+  @extend button
+}
