@@ -1,0 +1,38 @@
+<% content_for :title do %>My Fun Page- FAQ<% end %>
+
+<div class="row">
+  <div class="large-12 columns text-center">
+    <h2>FREQUENTLY ASKED QUESTIONS</h2>
+    <hr/>
+  </div>
+ </div>
+
+<dl class="accordion" data-accordion>
+  <dd class="accordion-navigation">
+    <%= link_to "1. Can I pay using Skrill?", "#panel1" %>
+    <div id="panel1" class="content">
+      <p>Yes we accept Skrill(Moneybooker).</p>
+    </div>
+  </dd>
+
+  <dd class="accordion-navigation">
+    <%= link_to "2. Can I cancel my order?", "#panel2" %>
+    <div id="panel2" class="content">
+      <p>Yes you can cancel your order anytime you want.</p>
+    </div>
+  </dd>
+
+<dd class="accordion-navigation">
+    <a href="#panel3">3. What is the refund policy?</a>
+    <div id="panel3" class="content">
+      <p>You can receive 100% refund anytime for any reason, there are no strings attached.</p>   
+    </div>
+ </dd>
+  
+ <dd class="accordion-navigation">
+   <a href="#panel4">4. How will I get invoice for cheques?</a>
+    <div id="panel4" class="content">
+      <p>You can receive invoice either by mail or by e-mail.</p>   
+    </div>
+ </dd>
+</dl>
