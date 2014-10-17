@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
 //= require turbolinks
 //= require foundation
@@ -20,6 +21,6 @@ $(function() {
 });
 
 // Fix for Foundation orbit and turbolinks
-$(document).on('page:load', function() {
-  Foundation.libs.orbit.init();
-})
+//$(document).on('page:load', function() {
+//  Foundation.libs.orbit.init();
+//})
