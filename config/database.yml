@@ -80,6 +80,8 @@ test:
 #
 production:
   <<: *default
-  database: learn_zurb_production
-  username: learn_zurb
-  password: <%= ENV['QEAAWEB_DATABASE_PASSWORD'] %>
+  database: <%= ENV[‘RDS_DB_NAME’] %>
+  username: <%= ENV[‘RDS_USERNAME’] %>
+  password: <%= ENV[‘RDS_PASSWORD’] %>
+  host: <%= ENV[‘RDS_HOSTNAME’] %>
+  port: <%= ENV[‘RDS_PORT’] %>
