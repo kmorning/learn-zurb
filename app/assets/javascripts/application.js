@@ -16,6 +16,7 @@
 //= require turbolinks
 //= require foundation
 //= require_tree .
+
 $(function() {
   $(document).foundation();
 });
@@ -24,3 +25,4 @@ $(function() {
 //$(document).on('page:load', function() {
 //  Foundation.libs.orbit.init();
 //})
+
