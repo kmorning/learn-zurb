@@ -50,6 +50,8 @@ gem 'foundation-rails'
 gem 'high_voltage'
 # Try to fix foundation scripts turbolinks break.
 gem 'jquery-turbolinks'
+# Page specific javascript
+gem 'rails_script'
 
 ###############################################################
 #
